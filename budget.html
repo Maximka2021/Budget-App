@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href=".//budget.css" />
+  </head>
+  <body>
+    <div class="first-div">
+      <div class="budget-div">
+        <h2 class = 'name'>Enter your Budget</h2>
+        <input type="number" id="budget-input" min="0"/>
+        <br>
+        <button id="budget-submit">Calculate</button>
+      </div>
+      <div class = 'info-div'>
+        <h2 class = 'info-name'>BUDGET</h2>
+        <h2 id = 'budget'>$ 0</h2>
+      </div>
+      <div class = 'info-div'>
+        <h2 class = 'info-name'>EXPENSES</h2>
+        <h2 id = 'expenses'>$ 0</h2>
+      </div>
+      <div class = 'info-div'>
+        <h2 class = 'info-name'>BALANCE</h2>
+        <h2 id = 'balance'>$ 0</h2>
+      </div>
+    </div>
+    <br>
+    <div class = 'expenses-div'>
+      <h2 class = 'name'>Enter Your Expenses</h2>
+      <input type="text" class = 'expenses-name'>
+      <h2 class = 'name'>Enter Expenses Value</h2>
+      <input type="number" class = 'expenses-amount' min = '0'>
+      <br>
+      <button id = 'expenses-submit'>Submit</button>
+    </div>
+    <div class = 'expenses-table'>
+      <div id = 'expenses-title'>
+        <h2 class = 'title'>Expenses Title</h2>
+      </div>
+      <div id = 'expenses-value'>
+        <h2 class = 'title'>Expenses Value</h2>
+      </div>
+      <div id = 'buttons'></div>
+    </div>
+  </body>
+  <script src = './/budget.js'></script>
+</html>
