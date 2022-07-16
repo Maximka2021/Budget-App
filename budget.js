@@ -46,7 +46,7 @@ expensesSubmit.addEventListener('click', function(){
         expensesAmount.value = '';
 
         var removeBtn = document.createElement('button');
-        removeBtn.style.marginTop = '4%';
+        removeBtn.style.marginBottom = '5%';
         buttons.append(removeBtn);
         removeBtn.textContent = 'Delete';
 
